@@ -13,6 +13,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[
+    'uses' => 'App\Http\Controllers\Controller@home',
+    'as' => 'home'
+]);
+Route::get('/product',[
+    'uses' => 'App\Http\Controllers\Controller@product',
+    'as' => 'product'
+]);
+Route::get('/article',[
+    'uses' => 'App\Http\Controllers\Controller@article',
+    'as' => 'article'
+]);
+Route::get('/article/{id}/{slug}',[
+    'uses' => 'App\Http\Controllers\Controller@article_detail',
+    'as' => 'article_detail'
+]);
+Route::get('/about',[
+    'uses' => 'App\Http\Controllers\Controller@about',
+    'as' => 'about'
+]);
+Route::get('/contact',[
+    'uses' => 'App\Http\Controllers\Controller@contact',
+    'as' => 'contact'
+]);
