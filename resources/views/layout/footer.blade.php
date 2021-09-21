@@ -10,16 +10,11 @@
                     </a>
                     <p>There are many variations of passages of lorem ipsum available, but the majority suffered.
                     </p>
-                    <form action="#" data-url="YOUR_MAILCHIMP_URL" class="mc-form">
-                        <input type="email" name="EMAIL" placeholder="Email Address">
-                        <button type="submit"><i class="agrikon-icon-right-arrow"></i></button>
-                    </form><!-- /.mc-form -->
-                    <div class="mc-form__response"></div><!-- /.mc-form__response -->
-                    <div class="footer__social">
+                    <div class="footer__social" style="padding-top: 25px;">
                         <a href="#" class="fab fa-facebook-square"></a>
                         <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-pinterest-p"></a>
                         <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-youtube"></a>
                     </div><!-- /.topbar__social -->
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-sm-12 col-md-6 col-lg-4 -->
@@ -77,12 +72,14 @@
 </footer><!-- /.site-footer -->
 <div class="bottom-footer">
     <div class="container">
-        <p>© Copyright 2021 by indofreshbanana.com</p>
         <div class="bottom-footer__links">
+            <p>© Copyright 2021 by indofreshbanana.com</p>
+        </div>
+        <!-- <div class="bottom-footer__links">
             <a href="#">Terms & Conditions</a>
             <a href="#">Privacy Policy</a>
             <a href="#">Sitemap</a>
-        </div><!-- /.bottom-footer__links -->
+        </div> -->
     </div><!-- /.container -->
 </div><!-- /.bottom-footer -->
 
@@ -116,8 +113,8 @@
         <div class="mobile-nav__social">
             <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
             <a href="#" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
-            <a href="#" aria-label="pinterest"><i class="fab fa-pinterest-p"></i></a>
             <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="instagram"><i class="fab fa-youtube"></i></a>
         </div><!-- /.mobile-nav__social -->
     </div><!-- /.mobile-nav__top -->
 
@@ -128,24 +125,7 @@
 </div>
 <!-- /.mobile-nav__wrapper -->
 
-<div class="search-popup">
-<div class="search-popup__overlay search-toggler"></div>
-<!-- /.search-popup__overlay -->
-<div class="search-popup__content">
-    <form action="#">
-        <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-        <input type="text" id="search" placeholder="Search Here..." />
-        <button type="submit" aria-label="search submit" class="thm-btn">
-            <i class="fa fa-search"></i>
-        </button>
-    </form>
-</div>
-<!-- /.search-popup__content -->
-</div>
-<!-- /.search-popup -->
-
 <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-
 
 <script src="{{asset('js')}}/jquery-3.5.1.min.js"></script>
 <script src="{{asset('js')}}/bootstrap.bundle.min.js"></script>

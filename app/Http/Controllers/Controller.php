@@ -6,6 +6,11 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Http\Request;
+use DB;
+use Mail;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Response;
 
 class Controller extends BaseController
 {
@@ -14,8 +19,11 @@ class Controller extends BaseController
     public function home()
 	{
         $menu = "home";
+
+        $company = DB::table('company')->whereNull('deleted_at')->orderby('id', 'asc')->get();
+        $slider = DB::table('slider')->whereNull('deleted_at')->orderby('id', 'asc')->get();
         
-        return view('home', ['menu' => $menu]);
+        return view('home', ['menu' => $menu, 'company' => $company, 'slider' => $slider]);
     }
 
     public function product()

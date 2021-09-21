@@ -45,8 +45,8 @@
                         <div class="topbar__social">
                             <a href="#" class="fab fa-facebook-square"></a>
                             <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-pinterest-p"></a>
                             <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-youtube"></a>
                         </div><!-- /.topbar__social -->
                         <p>Welcome to Indo Fresh Banana</p>
                     </div><!-- /.topbar__left -->
@@ -81,7 +81,7 @@
                     <!-- /.main-menu__list -->
 
                     <div class="main-header__info">
-                        <a href="#" class="search-toggler main-header__search-btn"><i class="agrikon-icon-magnifying-glass"></i></a>
+                        <!-- <a href="#" class="search-toggler main-header__search-btn"><i class="agrikon-icon-magnifying-glass"></i></a> -->
                         <a href="tel:62-857-7666-0909" class="main-header__info-phone">
                             <i class="agrikon-icon-phone-call"></i>
                             <span class="main-header__info-phone-content">
