@@ -144,6 +144,7 @@
 
 <!-- template js -->
 <script src="{{asset('js')}}/theme.js"></script>
+<script src="//code.tidio.co/8hkdmtokieovn7dczrue7o0ttqp0jun2.js" async></script>
 </body>
 
 </html>

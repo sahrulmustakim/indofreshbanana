@@ -30,7 +30,6 @@
 
     <!-- template styles -->
     <link rel="stylesheet" href="{{asset('css')}}/main.css">
-    <script src="//code.tidio.co/8hkdmtokieovn7dczrue7o0ttqp0jun2.js" async></script>
 </head>
 
 <body>
